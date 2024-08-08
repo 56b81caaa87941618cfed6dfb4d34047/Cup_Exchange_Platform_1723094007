@@ -36,5 +36,11 @@
         "content": "Change this background to zebra stripes",
         "timestamp": "08082024051757",
         "message_id": "guest08082024051757"
+    },
+    {
+        "role": "chat_acknowledge",
+        "content": "Thanks, I'm on it. Changing background to zebra stripes.",
+        "timestamp": "08082024051757",
+        "message_id": "guest08082024051757"
     }
 ]
