@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"For the red and blue stripes, do you have specific shades or color codes you prefer?\", \"option1\": \"Yes, I will provide the exact color codes.\", \"option2\": \"No, I'm open to suggestions based on the app's current design.\"}, {\"question 2\": \"How should the stripes be oriented on the component? Horizontally or vertically?\", \"option1\": \"Horizontally\", \"option2\": \"Vertically\"}], \"input_token_count\": 259, \"output_token_count\": 104, \"time_taken\": \"0:00:04.022220\"}",
+        "message_id": "guest08082024053758",
+        "timestamp": "08082024053803",
+        "component_file_name": "purple_background_cta_component_1723094009",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_acknowledge",
         "content": "Sure, I'll make the component with red and blue stripes.",
         "message_id": "guest08082024053758",
