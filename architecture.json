@@ -14,5 +14,9 @@
     {
         "level": 1,
         "task_description": "\n        You previously did not make a code change correctly.\n        You now have one more chance to complete the user's previous request. This is your last chance to make the code change correctly.\n        This is the user's original request: I don't see any zebra stripes on this component. Try again\n        This is the current message they have sent: I don't see any zebra stripes on this component. Try again\n        This is the HTML element ID of the component to be fixed: \n        This is the file name where the component resides: purple_background_cta_component_1723094009\n        \n        Instructions : Now, make sure you implement the user's request very carefully.\n        "
+    },
+    {
+        "level": 1,
+        "task_description": "Change this component to have red and blue stripes"
     }
 ]
