@@ -1,5 +1,23 @@
 [
     {
+        "role": "chat_ui_checklist",
+        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Implement a theme toggle to switch between light and dark mode for user preference\", \"checked\": false}, {\"feature\": \"Add a customizable background feature where users can choose from a set of patterns\", \"checked\": true}, {\"feature\": \"Incorporate a color palette selector for users to personalize the app's primary and secondary colors\", \"checked\": false}, {\"feature\": \"Enable a feature for users to upload custom images as the app background\", \"checked\": false}, {\"feature\": \"Provide a preview option to see changes before applying them to the app\", \"checked\": true}], \"input_token_count\": 287, \"output_token_count\": 133, \"time_taken\": \"0:00:05.964319\"}",
+        "message_id": "guest08082024053544",
+        "timestamp": "08082024053551",
+        "component_file_name": "purple_background_cta_component_1723094009",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Do you prefer the zebra stripes to be in a traditional black and white pattern, or would you like a custom color scheme for the stripes?\", \"option1\": \"Traditional black and white\", \"option2\": \"Custom color scheme\"}, {\"question 2\": \"Should the zebra stripes pattern cover the entire background uniformly, or do you envision it being focal to specific sections or fading at the edges?\", \"option1\": \"Cover the entire background uniformly\", \"option2\": \"Focal to specific sections/fading at the edges\"}], \"input_token_count\": 333, \"output_token_count\": 123, \"time_taken\": \"0:00:05.566624\"}",
+        "message_id": "guest08082024053544",
+        "timestamp": "08082024053551",
+        "component_file_name": "purple_background_cta_component_1723094009",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_acknowledge",
         "content": "Definitely, I'll change the background to zebra stripes.",
         "message_id": "guest08082024053544",
@@ -72,27 +90,9 @@
         "div_action": ""
     },
     {
-        "role": "chat_acknowledge",
-        "content": "Acknowledged, working on changing the background to dark red.",
-        "message_id": "guest08082024051348",
-        "timestamp": "08082024051349",
-        "component_file_name": "",
-        "div_id": "",
-        "div_action": ""
-    },
-    {
-        "role": "user",
-        "content": "change the background to be dark red",
-        "message_id": "guest08082024051348",
-        "timestamp": "08082024051349",
-        "component_file_name": "purple_header_component_1723094009",
-        "div_id": "",
-        "div_action": ""
-    },
-    {
         "role": "summary",
-        "content": "Can you describe the project a bit more?",
-        "timestamp": "08082024053544",
+        "content": "In the conversation, the user requested the AI assistant to change the background to dark red. The AI acknowledged the request and indicated that it was working on it. Subsequently, the AI asked the user for more details about the project to better understand the context.",
+        "timestamp": "08082024053551",
         "message_id": "guest08082024053544"
     }
 ]
