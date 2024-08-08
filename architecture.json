@@ -18,5 +18,9 @@
     {
         "level": 1,
         "task_description": "Change this component to have red and blue stripes"
+    },
+    {
+        "level": 1,
+        "task_description": "Change this component to have red and blue stripes"
     }
 ]
