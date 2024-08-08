@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Do you prefer the zebra stripes to be in a traditional black and white pattern, or would you like a custom color scheme for the stripes?\", \"option1\": \"Traditional black and white\", \"option2\": \"Custom color scheme\"}, {\"question 2\": \"Should the zebra stripes pattern cover the entire background uniformly, or do you envision it being focal to specific sections or fading at the edges?\", \"option1\": \"Cover the entire background uniformly\", \"option2\": \"Focal to specific sections/fading at the edges\"}], \"input_token_count\": 333, \"output_token_count\": 123, \"time_taken\": \"0:00:05.566624\"}",
+        "message_id": "guest08082024053544",
+        "timestamp": "08082024053551",
+        "component_file_name": "purple_background_cta_component_1723094009",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_acknowledge",
         "content": "Definitely, I'll change the background to zebra stripes.",
         "message_id": "guest08082024053544",
