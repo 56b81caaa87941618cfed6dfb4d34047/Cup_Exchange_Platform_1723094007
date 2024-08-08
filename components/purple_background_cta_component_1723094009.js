@@ -5,7 +5,7 @@ It is centered on the page and includes a gradient-based title, a subtitle, a pa
 Vue.component("purple_background_cta_component_1723094009", {
     template: `
     <section id="cta-section-container">
-        <div id="section-container" class="max-w-6xl mx-auto px-4 sm:px-6 bg-white bg-[url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MCIgaGVpZ2h0PSI0MCIgdmlld0JveD0iMCAwIDQwIDQwIj48cmVjdCB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIGZpbGw9IiNmZmZmZmYiLz48cmVjdCB3aWR0aD0iMjAiIGhlaWdodD0iNDAiIGZpbGw9IiMwMDAwMDAiLz48L3N2Zy4=')]">
+        <div id="section-container" class="max-w-6xl mx-auto px-4 sm:px-6 bg-gradient-to-r from-red-500 to-blue-500 bg-[size:40px_40px]">
             <div id="content-container" class="relative px-8 py-12 md:py-20 rounded-[3rem] overflow-hidden">
                 <!-- Radial gradient -->
                 <div id="radial-gradient" class="absolute flex items-center justify-center top-0 -translate-y-1/2 left-1/2 -translate-x-1/2 pointer-events-none -z-10 w-1/3 aspect-square" aria-hidden="true">
@@ -34,18 +34,18 @@ Vue.component("purple_background_cta_component_1723094009", {
             return {
                 expanded: false, 
                 tab: null,
-                radialGradientPrimaryStyle: "bg-purple-500",
-                radialGradientSecondaryStyle: "bg-purple-400",
-                stopColorPrimaryStyle: "#A855F7",
-                stopColorSecondaryStyle: "#6366F1",
+                radialGradientPrimaryStyle: "bg-red-500",
+                radialGradientSecondaryStyle: "bg-blue-500",
+                stopColorPrimaryStyle: "#EF4444",
+                stopColorSecondaryStyle: "#3B82F6",
                 transparentTextStyle: "text-transparent",
-                contentSubtitleStyle: "bg-gradient-to-r from-purple-500 to-purple-200",
+                contentSubtitleStyle: "bg-gradient-to-r from-red-500 to-blue-500",
                 contentCtaTitleStyle: "bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60",
                 contentBodyStyle: "text-slate-400",
                 contentCtaButtonPrimaryStyle:"text-slate-900",
                 contentCtaButtonGradientStyle: "bg-gradient-to-r from-white/80 via-white to-white/80",
                 contentCtaButtonHoverStyle: "hover:bg-white",
-                contentCtaArrowStyle: "text-purple-500"
+                contentCtaArrowStyle: "text-red-500"
             };
         },
     });
